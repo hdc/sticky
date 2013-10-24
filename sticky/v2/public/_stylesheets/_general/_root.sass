@@ -1,0 +1,64 @@
+//-----------------------------------------------------------------------------
+// Imports
+@import ../_base/reset
+@import extends
+
+@import fonts
+
+//-----------------------------------------------------------------------------
+// Variables
+
+$link: '&:link, &:visited'
+$focus: '&:hover, &:focus, &:active' 
+  
+//-----------------------------------------------------------------------------
+// Root
+
++establish-baseline
+
+body
+	@extend %serif-stack
+	background: $tan
+	background-attachment: fixed
+
+a
+	#{$link}
+		@extend %no-text-decoration
+		color: $linkColor
+  
+	#{$focus}
+		color: $linkColorHover
+
+.tse_header
+	background:
+		color: lighten($tan,20%)
+		position: center top
+		attachment: fixed
+		repeat: no-repeat
+	border-bottom: 1px solid darken(#e0dfcf, 10%)
+	+background-size(cover)
+
+.hdr_primary
+	@extend %position-relative
+	@extend %center-text
+	@extend %header-stack
+	@extend %caps
+	font-weight: bold
+	color: darken($tan,70%)
+	letter-spacing: em(2px)
+	padding: rhythm(1) 0 rhythm(1) 0
+	+adjust-font-size-to($ms7)
+	+text-shadow(rgba(darken($gray,70%), 0.07) 0.1em 0.1em 0)
+	+trailer(0)
+
+
+.section_description
+	@extend %center-text
+	+adjust-font-size-to($ms1,1.25)
+	+leader(2)
+	+trailer(2)
+
+.description_highlight
+	@extend %hand-stack
+	@extend %center-text
+
