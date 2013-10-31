@@ -1,0 +1,80 @@
+.menu_section
+	@extend %clearfix
+	color: $gray
+	+padding-leader(1.5)
+	//+susy-grid-background
+	&:first-of-type
+		border-top: none
+
+	.menu_section_intro
+		@extend %position-relative
+		height: 0
+		border-top: 2px dotted darken($tan,20%)
+		margin-top: rhythm(2.5,$ms4)
+		z-index: 1
+		+trailer(3)
+
+		p
+			@extend %no-margin
+
+		.intro_description
+			margin-top: em(-18px)
+
+	.menu_list
+		@extend %clearfix
+		//+span_columns(6 omega, 8)
+		+trailer(0)
+
+		li
+			margin-bottom: rhythm(1)
+			+span_columns(4, 16)
+			+nth-omega(4n)
+			&:nth-child(4n+1)
+				@extend %clear
+
+			+respond-to(xlarge)
+				+span_columns(8, 16)
+				+nth-omega(2n)
+				&:nth-child(2n+1)
+					@extend %clear
+
+			+respond-to(medium)
+				+span_columns(16, 16)
+				+remove-nth-omega
+
+
+
+	.menu_category
+		@extend %position-relative
+		@extend %display-inline-block
+		@extend %header-stack
+		@extend %caps
+		@extend %no-margin
+		background-color: $tan
+		color: $orange
+		top: em(-10px)
+		padding: 0 rhythm(.5) 0 0
+		z-index: 1
+		+adjust-font-size-to($ms4)
+
+	.menu_item
+		+trailer(1.25)
+
+		.entry_title
+			@extend %header-stack
+			@extend %caps
+			margin: 0
+			+adjust-font-size-to($ms1)
+			+trailer(.15)
+
+			.price
+				&:before
+					content: "/"
+					margin-right: rhythm(.15)
+				&:after
+					content: "/"
+					margin-left: rhythm(.15)
+
+		.menu_description
+			+leader(0)
+			+trailer(0)

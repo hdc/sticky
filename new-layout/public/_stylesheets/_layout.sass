@@ -1,0 +1,83 @@
+//-----------------------------------------------------------------------------
+// Grid Settings
+
+$total-columns: 18
+$column-width: em(40px)
+$gutter-width: em(30px)
+$grid-padding: $gutter-width
+
+$fixed-left-bar: em(240px)
+$aside-col-width: em(200px)
+$site-width: em(1180px)
+
+
+.section, .site_width
+	+container
+
+//+susy-grid-background
+// Fixed left bar desktop
+.main_nav
+	@extend %position-fixed
+	right: 0
+	width: $fixed-left-bar
+
+.branding
+	@extend %position-absolute
+	left: 0
+	z-index: 99
+
+.main_nav
+	background: $orange
+	top: 0
+	bottom: 0
+	z-index: 4
+	+box-shadow($gray 0 0 2px 0 inset)
+
+.tse_wrapper
+	@extend %position-relative
+	background: $tan
+	z-index: 9
+	height: 100%
+
+.tse_app
+	@extend %position-relative
+	height: 100%
+
+// Main
+.tse_main
+	//@extend %position-relative
+	padding: 0 rhythm(4) rhythm(4) rhythm(4)
+	min-height: em(720px)
+
+.tse_main_wrap
+	//@extend %position-relative
+	margin-left: $aside-col-width
+	min-height: em(720px)
+	//+susy-grid-background
+
+.tse_main_alt
+	+pad(1,1)
+
+
+// Aside
+.tse_aside
+	@extend %position-absolute
+	top: 0
+	left: 0
+	bottom: 0
+	height: 100%
+	width: $aside-col-width
+	z-index: 3
+
+.aside_content
+	background: #e0dfcf
+	padding-bottom: rhythm(2)
+
+.page_content
+	margin-bottom: em(85px)
+
+
+
+
+
+

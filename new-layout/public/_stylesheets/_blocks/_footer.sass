@@ -1,0 +1,47 @@
+.tse_footer
+	@extend %position-relative
+	@extend %clearfix
+
+	height: em(75px)
+	width: 100%
+	border-top: 1px solid darken(#589fac, 10%)
+	background: lighten(#589fac,10%)
+	color: $gray
+	z-index: 5
+	+padding-leader(1)
+	+padding-trailer(1)
+
+	h5
+		@extend %center-text
+		@extend %clearfix
+		+leader(0)
+		+trailer(0)
+		+adjust-font-size-to($ms1)
+
+		+respond-to(medium)
+			+adjust-font-size-to($ms-1)
+
+
+		.group
+			margin-right: rhythm(.5)
+
+		a
+			#{$link}
+				color: $gray
+
+		.tse_phone
+			@extend %text-bold
+			@extend %icon
+			@extend %icon-phone
+
+		.tse_location
+			@extend %text-bold
+			@extend %icon
+			@extend %icon-location
+
+		.tse_hours
+			@extend %text-bold
+			@extend %icon
+			@extend %icon-clock
+
+
