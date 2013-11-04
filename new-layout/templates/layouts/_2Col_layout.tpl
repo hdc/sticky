@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title><pop:section.current.title/> | Williamsport</title>
+	<title><pop:section.current.title/> <pop:section.parent.title/> | Williamsport | Restaurant</title>
 	<meta name="description" content="<pop:content.description />" />
 
 	<meta name="viewport" content="width=device-width">

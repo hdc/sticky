@@ -16,7 +16,7 @@
 					<li class="menu_item">
 						<pop:date wrap="span" class="event_date" format="dddd / mm.dd.yy /"/>
 						<h3 class="entry_title"><pop:title/></h3>
-						<pop:description wrap="p" class="menu_description"/>
+						<pop:body wrap="div" class="wysi" />
 					</li>
 			</pop:events>
 		</article>
