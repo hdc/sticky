@@ -6,25 +6,28 @@
 </pop:block>
 
 <pop:block region="tse_main_content">
-		<pop:section from="weekly">
-			<pop:title wrap="h2" class="section_title"/>
-			<pop:description wrap="p" class="weekly_description"/>
 
-			<pop:categories>
-				<article class="day_events">
-					<pop:entries order="title ASC" repeat="false">
-						<pop:title wrap="h3"/>
-						<pop:values>
-							<pop:title wrap="h4"/>
-							<pop:body />
-						</pop:values>
+    <pop:categories from="weekly">
+        <pop:entries order="title ASC" repeat="false">
+            <article class="menu_section">
+                <div class="menu_section_intro">
+                    <h2 class="menu_category"><pop:title/></h2>
+                    <pop:description wrap="p" class="intro_description"/>
+                </div>
+                <ul class="menu_list">
+                    <pop:values>
+                        <li class="menu_item">
+                            <h3 class="entry_title"><pop:title/><pop:time><span class="price"><pop:time/></span></pop:time></h3>
+                            <pop:body wrap="div" class="wysi" />
+                        </li>
+                    </pop:values>
+                </ul>
+            </article>
+    </pop:categories>
 
-				</article>
-			</pop:categories>
 
-		</pop:section>
-	</pop:block>
+</pop:block>
 
-	<pop:block region="aside_content">
-		<pop:include template="menus/_menu_subNav" />
-	</pop:block>
+<pop:block region="aside_content">
+    <pop:include template="events/_menu_subNav" />
+</pop:block>
