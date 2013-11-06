@@ -7,8 +7,6 @@
 
 <pop:block region="tse_main_content">
 
-	<pop:section.description wrap="p" class="section_description"/>
-
 	<pop:content>
 
 		<article class="menu_section">
@@ -28,5 +26,4 @@
 
 <pop:block region="aside_content">
     <pop:include template="events/_menu_subNav" />
-	<pop:date/>
 </pop:block>
