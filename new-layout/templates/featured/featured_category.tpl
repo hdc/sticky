@@ -8,7 +8,6 @@
 <pop:block region="tse_main_content">
 
 	<pop:content>
-
 		<pop:categories>
 			<article class="menu_section">
 				<div class="menu_section_intro">
@@ -24,7 +23,6 @@
 				</pop:entries>
 			</article>
 		</pop:categories>
-
 	</pop:content>
 </pop:block>
 

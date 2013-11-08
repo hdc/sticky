@@ -34,9 +34,11 @@
 <div class="tse_wrapper" id="tse_push">
 	<pop:include template="_partials/_header" />
 
-    <div class="tse_header" <pop:section.page_header_image> style="background-image: url('<pop:src/>');</pop:section.page_header_image>">
-        <h1 class="hdr_primary" style="color:<pop:section.text_color/>;"><pop:section.title/></h1>
-    </div>
+	<pop:region name="tse_header">
+	    <div class="tse_header" <pop:section.page_header_image> style="background-image: url('<pop:src/>');</pop:section.page_header_image>">
+	        <h1 class="hdr_primary" style="color:<pop:section.text_color/>;"><pop:section.title/> <pop:categories.current.title/></h1>
+	    </div>
+	</pop:region>
 
 	<div class="tse_app">
         <div class="tse_main_wrap">
