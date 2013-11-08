@@ -7,23 +7,31 @@
 
 <pop:block region="tse_main_content">
 
-    <pop:categories from="weekly">
+	<pop:content>
+    <pop:categories editable="false">
         <pop:entries order="title ASC" repeat="false">
-            <article class="menu_section">
-                <div class="menu_section_intro">
-                    <h2 class="menu_category"><pop:title/></h2>
+            <article class="event_section">
+                <div class="event_section_intro">
+                    <h2 class="event_category"><pop:title/></h2>
                     <pop:description wrap="p" class="intro_description"/>
                 </div>
-                <ul class="menu_list">
+                <ul class="event_list">
                     <pop:values>
-                        <li class="menu_item">
-                            <h3 class="entry_title"><pop:title/><pop:time><span class="price"><pop:time/></span></pop:time></h3>
+                        <li class="event_item">
+							<pop:time>
+								<div class="event_meta">
+									<pop:time wrap="span" class="event_time"/>
+								</div>
+							</pop:time>
+                            <h3 class="entry_title"><pop:title/></h3>
                             <pop:body wrap="div" class="wysi" />
                         </li>
                     </pop:values>
                 </ul>
             </article>
+		</pop:entries>
     </pop:categories>
+	</pop:content>
 
 
 </pop:block>

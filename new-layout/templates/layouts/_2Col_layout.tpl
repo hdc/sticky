@@ -13,7 +13,7 @@
 
 	<meta name="viewport" content="width=device-width">
 
-	<pop:region name="stylesheets"/>
+	<pop:stylesheet name="/_stylesheets/site.css"/>
 
 	<!-- Auto-discovery for rss feeds -->
 	<pop:rss><link rel="alternate" type="application/rss+xml" title="RSS" href="<pop:url />" /></pop:rss>

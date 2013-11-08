@@ -1,20 +1,20 @@
 <pop:layout name="_2Col_layout" />
 <pop:block region="body_class">events</pop:block>
 
-<pop:block region="stylesheets">
-	<pop:stylesheet name="/_stylesheets/menus.css"/>
-</pop:block>
-
 <pop:block region="tse_main_content">
 
 	<pop:content>
 
-		<article class="menu_section">
-			<pop:events wrap="ul" class="menu_list">
-					<li class="menu_item">
-						<pop:date wrap="span" class="event_date" format="dddd / mm.dd.yy /"/>
+		<article class="event_section">
+			<pop:events wrap="ul" class="event_list">
+					<li class="event_item">
+						<div class="event_meta">
+							<pop:date wrap="span" class="event_date" format="ddd / mm.dd.yy /"/>
+							<pop:time wrap="span" class="event_time"/>
+						</div>
 						<h3 class="entry_title"><pop:title/></h3>
-						<pop:body wrap="div" class="wysi" />
+						<div class="wysi"><pop:body/></div>
+
 					</li>
 			</pop:events>
 		</article>
