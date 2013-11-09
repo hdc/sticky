@@ -1,9 +1,6 @@
 <pop:layout name="_2Col_layout" />
 <pop:block region="body_class">menu</pop:block>
 
-<pop:block region="stylesheets">
-	<pop:stylesheet name="/_stylesheets/menus.css"/>
-</pop:block>
 
 <pop:block region="tse_main_content">
 	<pop:categories from="twine-dining" editable="false">

@@ -1,15 +1,11 @@
 <pop:layout name="_2Col_layout" />
 <pop:block region="body_class">menu</pop:block>
 
-<pop:block region="stylesheets">
-    <pop:stylesheet name="/_stylesheets/menus.css"/>
-</pop:block>
-
 <pop:block region="tse_main_content">
 
 
     <pop:categories from="menus" dinner_category="true" editable="false">
-		<pop:entries order="title ASC" in_dinner_menu="true" repeat="false">
+		<pop:entries order="title ASC" in_dinner_menu="true" live_status="true" repeat="false">
         <article class="menu_section">
             <div class="menu_section_intro">
                 <h2 class="menu_category"><pop:title/></h2>

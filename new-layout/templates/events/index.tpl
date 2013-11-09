@@ -1,1 +1,1 @@
-<pop:redirect to="<pop:section from='weekly'><pop:permalink/></pop:section>"></pop:redirect>
+<pop:redirect to="<pop:section from='upcoming'><pop:permalink/></pop:section>"></pop:redirect>

@@ -18,6 +18,7 @@
 			@extend %no-margin
 
 		.intro_description
+			@extend %hand-stack
 			margin-top: em(-18px)
 			+trailer(1)
 
@@ -66,7 +67,7 @@
 			@extend %caps
 			font-weight: normal
 			margin: 0
-			+adjust-font-size-to($ms1 + 1)
+			+adjust-font-size-to($ms1 + 1,1)
 			+trailer(.15)
 
 			.price
