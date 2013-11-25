@@ -3,16 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ff91116e-44f1-426b-899f-abb732b46f61" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/Sticky_Elbow/templates/menus/sections_drinks.tpl" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/templates/layouts/_base.tpl" afterPath="$USER_HOME$/Sticky_Elbow/templates/layouts/_base.tpl" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_base/_colors.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_base/_colors.sass" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_blocks/_footer.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_blocks/_footer.sass" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/templates/_partials/_footer.tpl" afterPath="$USER_HOME$/Sticky_Elbow/templates/_partials/_footer.tpl" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_layout.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_layout.sass" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_general/_root.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_general/_root.sass" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/home.css" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/home.css" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/home.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/home.sass" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/menus.css" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/menus.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_base/_colors.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_base/_colors.sass" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/templates/layouts/_base.tpl" afterPath="$USER_HOME$/Sticky_Elbow/templates/layouts/_base.tpl" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/menus.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/menus.sass" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/menus.css" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/menus.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/templates/_partials/_footer.tpl" afterPath="$USER_HOME$/Sticky_Elbow/templates/_partials/_footer.tpl" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/home.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/home.sass" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/home.css" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/home.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_layout.sass" afterPath="$USER_HOME$/Sticky_Elbow/public/_stylesheets/_layout.sass" />
     </list>
     <ignored path="sticky.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -275,15 +275,15 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="options.lastSelected" value="web.server" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/sticky_Elbow" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="Sticky" serverId="4aedb801-b0ae-4d34-82ba-9e2e8856c489" promptOnLocalOverwrite="false" autoUpload="true" uploadOnSaveAll="true">
     <servers>
@@ -296,6 +296,9 @@
             <mapping local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
+      </server>
+      <server id="6dd13bb2-9960-4530-ac4a-0a446674eb84">
+        <serverdata />
       </server>
       <server id="a6438863-81d6-47c1-ba91-f3a328d0f846">
         <serverdata />
@@ -349,12 +352,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26074842" sideWeight="0.77016574" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11863057" sideWeight="0.83925813" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11942675" sideWeight="0.83925813" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
