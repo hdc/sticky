@@ -13,7 +13,7 @@
 
 	<meta name="viewport" content="width=device-width">
 
-	<pop:region name="stylesheets"/>
+	<pop:stylesheet name="/_stylesheets/site.css"/>
 
 	<!-- Auto-discovery for rss feeds -->
 	<pop:rss><link rel="alternate" type="application/rss+xml" title="RSS" href="<pop:url />" /></pop:rss>
@@ -35,8 +35,9 @@
 	<pop:include template="_partials/_header" />
 
 	<pop:region name="tse_header">
-	    <div class="tse_header" <pop:section.page_header_image> style="background-image: url('<pop:src/>');</pop:section.page_header_image>">
+	    <div class="tse_header" style="background-image: url('<pop:section.page_header_image> <pop:src/></pop:section.page_header_image>');">
 	        <h1 class="hdr_primary" style="color:<pop:section.text_color/>;"><pop:section.title/> <pop:categories.current.title/></h1>
+			<h2 style="color:<pop:section.text_color/>;" class="section_description"><pop:section.description/></h2>
 	    </div>
 	</pop:region>
 

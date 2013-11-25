@@ -1,12 +1,11 @@
-.menu_section
+.event_section
 	@extend %clearfix
 	color: $gray
 	+padding-leader(1.5)
-	//+susy-grid-background
 	&:first-of-type
 		border-top: none
 
-	.menu_section_intro
+	.event_section_intro
 		@extend %position-relative
 		height: 0
 		border-top: 2px dotted darken($tan,20%)
@@ -17,12 +16,14 @@
 		p
 			@extend %no-margin
 
+
 		.intro_description
-			@extend %hand-stack
 			margin-top: em(-18px)
 			+trailer(1)
 
-	.menu_list
+
+
+	.event_list
 		@extend %clearfix
 		//+span_columns(6 omega, 8)
 		+trailer(0)
@@ -46,7 +47,7 @@
 
 
 
-	.menu_category
+	.event_category
 		@extend %position-relative
 		@extend %display-inline-block
 		@extend %header-stack
@@ -59,7 +60,7 @@
 		z-index: 1
 		+adjust-font-size-to($ms4)
 
-	.menu_item
+	.event_item
 		+trailer(1.25)
 
 		.entry_title
@@ -67,17 +68,39 @@
 			@extend %caps
 			font-weight: normal
 			margin: 0
-			+adjust-font-size-to($ms1 + 1,1)
+			+adjust-font-size-to($ms1 + 1)
 			+trailer(.15)
 
-			.price
-				&:before
-					content: "/"
-					margin-right: rhythm(.15)
-				&:after
-					content: "/"
-					margin-left: rhythm(.15)
-
-		.menu_description
+		.event_description
 			+leader(0)
 			+trailer(0)
+
+
+	.event_date
+		@extend %icon
+		@extend %icon-calendar
+		@extend %display-inline-block
+		margin-right: rhythm(.25)
+		+trailer(.5)
+
+	.event_time
+		@extend %icon
+		@extend %icon-clock
+		@extend %display-inline-block
+		+trailer(.5)
+
+	.event_location
+		@extend %display-inline-block
+
+	.event_meta
+		border-bottom: 1px dotted $gray
+		+trailer(.5)
+		+adjust-font-size-to($ms-1)
+
+	.event_meta_bottom
+		border-top: 1px dotted $gray
+		+leader(.5)
+		+adjust-font-size-to($ms-1)
+
+		.event_time
+			+leader(.5)
