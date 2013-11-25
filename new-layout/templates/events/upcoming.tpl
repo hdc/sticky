@@ -17,6 +17,10 @@
 
 					</li>
 			</pop:events>
+
+			<pop:no_events>
+				<p class="no_results">Sorry but there are no upcoming events at this time. Check back often for updates.</p>
+			</pop:no_events>
 		</article>
 
 	</pop:content>

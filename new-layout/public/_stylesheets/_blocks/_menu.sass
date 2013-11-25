@@ -12,7 +12,8 @@
 		border-top: 2px dotted darken($tan,20%)
 		margin-top: rhythm(2.5,$ms4)
 		z-index: 1
-		+trailer(2.5)
+		+trailer(3.5)
+
 
 		p
 			@extend %no-margin
@@ -33,6 +34,9 @@
 			+nth-omega(4n)
 			&:nth-child(4n+1)
 				@extend %clear
+
+			&:last-child
+				margin-bottom: 0
 
 			+respond-to(xlarge)
 				+span_columns(8, 16)

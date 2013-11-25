@@ -21,10 +21,25 @@
 			color: $blue
 			+adjust-font-size-to($ms4)
 
+		+respond-to(small)
+			padding-top: rhythm(.5)
+			+pad(1,1)
+
+			&:before
+				left: rhythm(5)
+
 .aside_nav
 	padding: rhythm(.5) rhythm(1)
+
+	+respond-to(small)
+		margin: 0
+		+pad(1,1)
+
 	> li
 		margin-bottom: rhythm(.45)
+
+		+respond-to(small)
+			padding: rhythm(.25) 0
 		a
 			#{$link}
 				@extend %display-block

@@ -42,6 +42,17 @@ html, body
 	left: 50%
 	margin-left: -40%
 
+	+respond-to(small)
+		top: 32%
+		width: 90%
+		margin-left: -45%
+
+	+respond-to(xsmall)
+		top: 35%
+
+
+
+
 	h1
 		@extend %center-text
 		@extend %no-margin
@@ -52,6 +63,13 @@ html, body
 		letter-spacing: em(1px)
 		padding: 2%
 		+adjust-font-size-to($ms4,2)
+
+		+respond-to(small)
+			+adjust-font-size-to($ms3,1.75)
+
+		+respond-to(xsmall)
+			+adjust-font-size-to($ms1,1.25)
+
 
 
 

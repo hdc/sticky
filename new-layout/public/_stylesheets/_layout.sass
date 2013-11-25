@@ -54,7 +54,12 @@ $site-width: em(1180px)
 	min-height: em(900px)
 	//+susy-grid-background
 
+	+respond-to(small)
+		margin-left: 0
+		min-height: em(500px)
+
 .tse_main_alt
+	padding-bottom: rhythm(2)
 	+pad(1,1)
 
 
@@ -68,12 +73,22 @@ $site-width: em(1180px)
 	width: $aside-col-width
 	z-index: 3
 
+	+respond-to(small)
+		position: relative
+		width: 100%
+		height: auto
+		top: auto
+		bottom: auto
+
 .aside_content
 	background: #e0dfcf
 	padding-bottom: rhythm(2)
 
 .page_content
 	margin-bottom: em(85px)
+
+.no_results
+	@extend %center-text
 
 
 

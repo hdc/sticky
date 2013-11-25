@@ -11,6 +11,9 @@
 	+padding-leader(1)
 	+padding-trailer(1)
 
+	+respond-to(small)
+		height: auto
+
 	h5
 		@extend %center-text
 		@extend %clearfix
@@ -23,7 +26,12 @@
 
 
 		.group
+			@extend %display-inline-block
 			margin-right: rhythm(.5)
+
+			+respond-to(small)
+				height: auto
+
 
 		a
 			#{$link}

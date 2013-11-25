@@ -5,6 +5,9 @@
 	height: em(94px)
 	width: 100%
 
+	+respond-to(small)
+		height: em(64px)
+
 
 .logo
 	width: em(240px)
@@ -14,6 +17,9 @@
 
 	figure
 		padding: rhythm(.75) rhythm(.75) rhythm(.75)
+
+		+respond-to(small)
+			padding: rhythm(.25) rhythm(3.25) rhythm(1.25) 0
 
 	img
 		max-width: 100%
@@ -42,9 +48,11 @@
 		white-space: nowrap
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 		z-index: 999
-
 		+adjust-font-size-to($ms3)
 		+opacity(.9)
+
+		+respond-to(small)
+			top: rhythm(.5)
 
 	#{$focus}
 		+opacity(1)

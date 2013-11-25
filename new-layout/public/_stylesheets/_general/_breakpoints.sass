@@ -14,6 +14,14 @@
 		@media only screen and (max-width : 845px)
 			@content
 
+	@if $device == small
+		@media only screen and (max-width : 678px)
+			@content
+
+	@if $device == xsmall
+		@media only screen and (max-width : 485px)
+			@content
+
 	@if $device == retina-display
 		@media only screen and (-webkit-min-device-pixel-ratio: 2)
 			@content
@@ -21,13 +29,11 @@
 body
 	&:after
 		display: none
-		+respond-to(handheld)
+		+respond-to(handheld-landscape)
 			content: 'handheld'
-		+respond-to(tablet)
-			content: 'tablet'
-		+respond-to(tablet-large)
-			content: 'tablet-large'
-		+respond-to(desktop-small)
-			content: 'desktop'
-		+respond-to(desktop-large)
-			content: 'desktop-large'
+		+respond-to(xlarge)
+			content: 'xlarge'
+		+respond-to(medium)
+			content: 'medium'
+		+respond-to(small)
+			content: 'small'
