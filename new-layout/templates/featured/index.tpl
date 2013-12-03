@@ -1,1 +1,1 @@
-<pop:redirect to="<pop:categories limit='1'><pop:permalink/></pop:categories>"></pop:redirect>
+<pop:redirect to="<pop:section from='weekly-featured'><pop:permalink/></pop:section>"></pop:redirect>

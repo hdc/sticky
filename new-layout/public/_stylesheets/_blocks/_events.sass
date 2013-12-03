@@ -75,6 +75,14 @@
 			+leader(0)
 			+trailer(0)
 
+		.price
+			&:before
+				content: "/"
+				margin-right: rhythm(.15)
+			&:after
+				content: "/"
+				margin-left: rhythm(.15)
+
 
 	.event_date
 		@extend %icon
@@ -89,11 +97,16 @@
 		@extend %display-inline-block
 		+trailer(.5)
 
+	.event_price
+		@extend %display-inline-block
+		+trailer(.5)
+
 	.event_location
 		@extend %display-inline-block
 
 	.event_meta
-		border-bottom: 1px dotted $gray
+		border-bottom: 1px dotted darken($tan,25%)
+		color: darken($tan,55%)
 		+trailer(.5)
 		+adjust-font-size-to($ms-1)
 

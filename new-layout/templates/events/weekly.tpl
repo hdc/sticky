@@ -9,8 +9,9 @@
 
 	<pop:content>
     <pop:categories editable="false">
-        <pop:entries order="title ASC" repeat="false">
+
             <article class="event_section">
+	            <pop:entries order="title ASC" repeat="false">
                 <div class="event_section_intro">
                     <h2 class="event_category"><pop:title/></h2>
                     <pop:description wrap="p" class="intro_description"/>
@@ -28,8 +29,12 @@
                         </li>
                     </pop:values>
                 </ul>
+	            </pop:entries>
             </article>
-		</pop:entries>
+
+
+
+
     </pop:categories>
 	</pop:content>
 

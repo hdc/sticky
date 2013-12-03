@@ -13,7 +13,7 @@
 				<ul class="menu_list">
 					<pop:values>
 						<li class="menu_item">
-							<h3 class="entry_title"><pop:title/> <span class="price">$<pop:price/></span></h3>
+							<h3 class="entry_title"><pop:title/> <pop:price><span class="price">$<pop:price/></span></pop:price></h3>
 							<pop:description wrap="p" class="menu_description"/>
 						</li>
 					</pop:values>

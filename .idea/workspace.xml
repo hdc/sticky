@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e81079da-e035-43ed-937d-8435e642c5db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new-layout/templates/featured/featured_infusion.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_menu.sass" afterPath="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_menu.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/public/_stylesheets/_general/_root.sass" afterPath="$PROJECT_DIR$/new-layout/public/_stylesheets/_general/_root.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/public/_stylesheets/site.sass" afterPath="$PROJECT_DIR$/new-layout/public/_stylesheets/site.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new-layout/templates/featured/featured_weekly.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_events.sass" afterPath="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_events.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/templates/featured/featured_category.tpl" afterPath="$PROJECT_DIR$/new-layout/templates/featured/featured_category.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/templates/featured/featured_infusion.tpl" afterPath="$PROJECT_DIR$/new-layout/templates/featured/featured_infusion.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/templates/featured/index.tpl" afterPath="$PROJECT_DIR$/new-layout/templates/featured/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/templates/menus/sections_drinks.tpl" afterPath="$PROJECT_DIR$/new-layout/templates/menus/sections_drinks.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new-layout/templates/events/weekly.tpl" afterPath="$PROJECT_DIR$/new-layout/templates/events/weekly.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sticky.iws" />
@@ -29,19 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_menu.sass" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_menu.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_menu.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="10" selection-start="490" selection-end="490" vertical-scroll-proportion="0.6424975" vertical-offset="22" max-vertical-offset="2024">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="featured_infusion.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/featured_infusion.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="657" selection-end="657" vertical-scroll-proportion="-17.76923" vertical-offset="0" max-vertical-offset="1144">
+            <state line="82" column="44" selection-start="1274" selection-end="1402" vertical-scroll-proportion="-28.346153" vertical-offset="1067" max-vertical-offset="2024">
               <folding />
             </state>
           </provider>
@@ -50,7 +44,52 @@
       <file leaf-file-name="featured_category.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/featured_category.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="290" selection-end="307" vertical-scroll-proportion="-5.3461537" vertical-offset="125" max-vertical-offset="1144">
+            <state line="40" column="42" selection-start="1003" selection-end="1018" vertical-scroll-proportion="-24.115385" vertical-offset="253" max-vertical-offset="1320">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="featured_infusion.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/featured_infusion.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="22" selection-start="1144" selection-end="1144" vertical-scroll-proportion="-25.807692" vertical-offset="297" max-vertical-offset="1364">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/index.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="96" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="132">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-layout/templates/menus/index.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="23" selection-start="23" selection-end="44" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="132">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="featured_weekly.tpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/featured_weekly.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="22" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.7011494" vertical-offset="319" max-vertical-offset="1386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_events.sass" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_events.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="20" selection-start="1805" selection-end="1805" vertical-scroll-proportion="-24.961538" vertical-offset="1749" max-vertical-offset="2728">
               <folding />
             </state>
           </provider>
@@ -59,7 +98,7 @@
       <file leaf-file-name="_root.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_general/_root.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="38" selection-start="1537" selection-end="1537" vertical-scroll-proportion="-33.115383" vertical-offset="921" max-vertical-offset="2068">
+            <state line="81" column="38" selection-start="1537" selection-end="1537" vertical-scroll-proportion="-61.884617" vertical-offset="173" max-vertical-offset="2068">
               <folding />
             </state>
           </provider>
@@ -92,13 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/new-layout/templates/featured/index.tpl" />
-        <option value="$PROJECT_DIR$/new-layout/templates/layouts/_2Col_layout.tpl" />
-        <option value="$PROJECT_DIR$/new-layout/templates/featured/featured_category.tpl" />
-        <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/menus.sass" />
-        <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_aside.sass" />
-        <option value="$PROJECT_DIR$/new-layout/templates/events/upcoming.tpl" />
-        <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/_layout.sass" />
         <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_header.sass" />
         <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_nav.sass" />
         <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/_general/_breakpoints.sass" />
@@ -106,17 +138,24 @@
         <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/home.sass" />
         <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_menu.sass" />
         <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/_general/_root.sass" />
+        <option value="$PROJECT_DIR$/new-layout/templates/events/weekly.tpl" />
+        <option value="$PROJECT_DIR$/new-layout/templates/menus/sections_dinner.tpl" />
+        <option value="$PROJECT_DIR$/new-layout/templates/menus/sections_drinks.tpl" />
+        <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_events.sass" />
         <option value="$PROJECT_DIR$/new-layout/public/_stylesheets/site.sass" />
+        <option value="$PROJECT_DIR$/new-layout/templates/featured/featured_category.tpl" />
         <option value="$PROJECT_DIR$/new-layout/templates/featured/featured_infusion.tpl" />
+        <option value="$PROJECT_DIR$/new-layout/templates/featured/index.tpl" />
+        <option value="$PROJECT_DIR$/new-layout/templates/featured/featured_weekly.tpl" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="665" />
-    <option name="y" value="402" />
-    <option name="width" value="2560" />
-    <option name="height" value="1414" />
+    <option name="x" value="116" />
+    <option name="y" value="50" />
+    <option name="width" value="1950" />
+    <option name="height" value="1303" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -401,15 +440,15 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="web.server" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="PublishConfig" serverName="Elbow" serverId="3ac5b194-67e2-4d62-8f2b-bf223e2e0a16" promptOnLocalOverwrite="false" autoUpload="true" uploadOnSaveAll="true">
     <servers>
@@ -484,10 +523,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="665" y="402" width="2560" height="1414" extended-state="1" />
+    <frame x="116" y="50" width="1950" height="1303" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1907336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14527027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -498,7 +537,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14570063" sideWeight="0.8092664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2082019" sideWeight="0.8547297" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -521,82 +560,68 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/new-layout/templates/events/_menu_subNav.tpl">
+    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_general/_breakpoints.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="41" selection-end="189" vertical-scroll-proportion="0.12419355" vertical-offset="0" max-vertical-offset="1240" />
+        <state line="21" column="47" selection-start="487" selection-end="487" vertical-scroll-proportion="0.37258065" vertical-offset="0" max-vertical-offset="1240" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/menus.sass">
+    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_footer.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.3323263" vertical-offset="0" max-vertical-offset="993">
-          <folding />
-        </state>
+        <state line="32" column="28" selection-start="541" selection-end="541" vertical-scroll-proportion="0.48548388" vertical-offset="102" max-vertical-offset="1342" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/templates/menus/sections_twine.tpl">
+    <entry file="file://$PROJECT_DIR$/new-layout/templates/menus/sections_drinks.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_aside.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="27" selection-start="861" selection-end="898" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1518">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_nav.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="26" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="3894">
+        <state line="13" column="32" selection-start="455" selection-end="455" vertical-scroll-proportion="0.4218289" vertical-offset="0" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new-layout/templates/events/upcoming.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="858">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_layout.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="26" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="1276" max-vertical-offset="2266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/home.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1958">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_general/_breakpoints.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="487" selection-end="487" vertical-scroll-proportion="0.37258065" vertical-offset="0" max-vertical-offset="1240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_footer.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="28" selection-start="541" selection-end="541" vertical-scroll-proportion="0.48548388" vertical-offset="102" max-vertical-offset="1342">
+        <state line="9" column="20" selection-start="225" selection-end="225" vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="957">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_general/_root.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="38" selection-start="1537" selection-end="1537" vertical-scroll-proportion="-33.115383" vertical-offset="921" max-vertical-offset="2068">
+        <state line="81" column="38" selection-start="1537" selection-end="1537" vertical-scroll-proportion="-61.884617" vertical-offset="173" max-vertical-offset="2068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-layout/templates/menus/sections_dinner.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="855" selection-end="855" vertical-scroll-proportion="0.43678162" vertical-offset="0" max-vertical-offset="957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-layout/templates/menus/sections_lunch.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="983">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-layout/templates/events/weekly.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="56" selection-start="763" selection-end="763" vertical-scroll-proportion="0.33751306" vertical-offset="161" max-vertical-offset="1144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_menu.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="44" selection-start="1274" selection-end="1402" vertical-scroll-proportion="-28.346153" vertical-offset="1067" max-vertical-offset="2024">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_events.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="20" selection-start="1805" selection-end="1805" vertical-scroll-proportion="-24.961538" vertical-offset="1749" max-vertical-offset="2728">
           <folding />
         </state>
       </provider>
@@ -610,21 +635,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/featured_category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="290" selection-end="307" vertical-scroll-proportion="-5.3461537" vertical-offset="125" max-vertical-offset="1144">
+        <state line="40" column="42" selection-start="1003" selection-end="1018" vertical-scroll-proportion="-24.115385" vertical-offset="253" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/featured_infusion.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="657" selection-end="657" vertical-scroll-proportion="-17.76923" vertical-offset="0" max-vertical-offset="1144">
+        <state line="44" column="22" selection-start="1144" selection-end="1144" vertical-scroll-proportion="-25.807692" vertical-offset="297" max-vertical-offset="1364">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-layout/public/_stylesheets/_blocks/_menu.sass">
+    <entry file="file://$PROJECT_DIR$/new-layout/templates/menus/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="490" selection-end="490" vertical-scroll-proportion="0.6424975" vertical-offset="22" max-vertical-offset="2024">
+        <state line="0" column="23" selection-start="23" selection-end="44" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="96" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-layout/templates/featured/featured_weekly.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="22" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.7011494" vertical-offset="319" max-vertical-offset="1386">
           <folding />
         </state>
       </provider>

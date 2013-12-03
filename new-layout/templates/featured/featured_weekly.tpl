@@ -9,26 +9,27 @@
 
 	<pop:content>
 
+		<pop:categories from="weekly-featured" editable="false">
 			<pop:entries order="title ASC" repeat="false">
-				<article class="menu_section">
-					<div class="menu_section_intro">
-						<h2 class="menu_category"><pop:title/></h2>
-						<pop:suggested_mixers wrap="p" class="intro_description"/>
-					</div>
-
-						<pop:entries order="title ASC" wrap="ul" class="menu_list">
-							<li class="menu_item">
-								<pop:title wrap="h3" class="entry_title"/>
-								<pop:body wrap="div" class="wysi"/>
-							</li>
-						</pop:entries>
-
+				<article class="event_section">
+				<div class="event_section_intro">
+					<h2 class="event_category"><pop:title/></h2>
+					<pop:description wrap="p" class="intro_description"/>
+				</div>
+				<ul class="event_list">
+					<pop:values>
+						<li class="event_item">
+							<pop:time wrap="div" class="event_meta">
+								<pop:time wrap="span" class="event_time"/>
+							</pop:time>
+							<h3 class="entry_title"><pop:price><span class="price">$<pop:price/></span></pop:price> <pop:title/></h3>
+							<pop:description wrap="p" class="event_description"/>
+						</li>
+					</pop:values>
+				</ul>
 				</article>
-				</pop:entries>
-
-		<pop:no_entries>
-			<p class="no_results">Sorry nothing yet, we'll have Infusions listed soon!</p>
-		</pop:no_entries>
+			</pop:entries>
+		</pop:categories>
 
 	</pop:content>
 
